@@ -1,6 +1,6 @@
 # MP.FluentValidation.Options
 
-`FluentValidation.Options` is a NuGet package that provides an extension method to integrate `FluentValidation`
+`MP.FluentValidation.Options` is a NuGet package that provides an extension method to integrate `FluentValidation`
 with `Microsoft.Extensions.Options`. It allows you to automatically validate configuration settings using
 FluentValidation validators.
 
@@ -11,6 +11,14 @@ To install the package, run the following command in your NuGet Package Manager 
 ```bash
 Install-Package MP.FluentValidation.Options
 ```
+
+## How It Works
+
+The `AddValidatedOptions` extension method:
+
+1. Finds the `AbstractValidator` for the specified configuration class.
+2. Validates the configuration values from `appsettings.json` or environment variables.
+3. Registers the configuration class with the validated values in the `IOptions<T>` service.
 
 ## Usage
 
@@ -78,14 +86,6 @@ public class MyService
     }
 }
 ```
-
-## How It Works
-
-The `AddValidatedOptions` extension method:
-
-1. Finds the `AbstractValidator` for the specified configuration class.
-2. Validates the configuration values from `appsettings.json` or environment variables.
-3. Registers the configuration class with the validated values in the `IOptions<T>` service.
 
 ## License
 

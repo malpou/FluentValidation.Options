@@ -15,7 +15,7 @@
         <RepositoryType>github</RepositoryType>
         <PackageTags>validation, configuration</PackageTags>
         <PackageId>MP.FluentValidation.Options</PackageId>
-        <Version>2.0.0</Version>
+        <Version>2.0.1</Version>
         <AssemblyName>MP.FluentValidation.Options</AssemblyName>
         <RootNamespace>MP.FluentValidation.Options</RootNamespace>
     </PropertyGroup>

@@ -1,0 +1,9 @@
+# .NET Core build folders
+bin/
+obj/
+
+# DotSettings.user files
+*.DotSettings.user
+
+# .idea
+.idea

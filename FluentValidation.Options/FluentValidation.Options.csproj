@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>FluentValidation.Options</Title>
+        <Authors>malpou</Authors>
+        <TargetFrameworks>netstandard2.0;net8.0;net462</TargetFrameworks>
+        <Description>FluentValidation.Options allows you to automatically validate configuration settings using FluentValidation validators</Description>
+        <Copyright>Malthe Poulsen</Copyright>
+        <PackageProjectUrl>https://github.com/malpou/FluentValidation.Options</PackageProjectUrl>
+        <PackageLicense>https://github.com/malpou/FluentValidation.Options/blob/main/LICENSE</PackageLicense>
+        <PackageIcon>fluent-validation-icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/malpou/FluentValidation.Options</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>validation, configuration</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" Version="11.9.2"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\fluent-validation-icon.png">
+          <Pack>True</Pack>
+          <PackagePath>/</PackagePath>
+          <Link>fluent-validation-icon.png</Link>
+        </None>
+    </ItemGroup>
+
+</Project>

@@ -5,7 +5,7 @@
 ## Installation
 To install the package, run the following command in your NuGet Package Manager Console
 ```bash
-Install-Package FluentValidation.Options
+Install-Package MP.FluentValidation.Options
 ```
 
 ## Usage

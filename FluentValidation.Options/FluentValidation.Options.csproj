@@ -8,12 +8,14 @@
         <Description>FluentValidation.Options allows you to automatically validate configuration settings using FluentValidation validators</Description>
         <Copyright>Malthe Poulsen</Copyright>
         <PackageProjectUrl>https://github.com/malpou/FluentValidation.Options</PackageProjectUrl>
-        <PackageLicense>https://github.com/malpou/FluentValidation.Options/blob/main/LICENSE</PackageLicense>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>fluent-validation-icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/malpou/FluentValidation.Options</RepositoryUrl>
         <RepositoryType>github</RepositoryType>
         <PackageTags>validation, configuration</PackageTags>
-        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageId>MP.FluentValidation.Options</PackageId>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
@@ -27,6 +29,16 @@
           <Pack>True</Pack>
           <PackagePath>/</PackagePath>
           <Link>fluent-validation-icon.png</Link>
+        </None>
+        <None Include="..\LICENSE">
+          <Pack>True</Pack>
+          <PackagePath>/</PackagePath>
+          <Link>LICENSE</Link>
+        </None>
+        <None Include="..\README.md">
+          <Pack>True</Pack>
+          <PackagePath>/</PackagePath>
+          <Link>README.md</Link>
         </None>
     </ItemGroup>
 

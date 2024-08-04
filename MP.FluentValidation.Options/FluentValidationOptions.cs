@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace FluentValidation.Options
+namespace MP.FluentValidation.Options
 {
     internal class FluentValidationOptions<TOptions> : IValidateOptions<TOptions>
         where TOptions : class

@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FluentValidation.Options\FluentValidation.Options.csproj"/>
+        <ProjectReference Include="..\MP.FluentValidation.Options\MP.FluentValidation.Options.csproj"/>
     </ItemGroup>
 
 </Project>

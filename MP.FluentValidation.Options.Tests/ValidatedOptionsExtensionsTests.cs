@@ -1,6 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace FluentValidation.Options.Tests;
+namespace MP.FluentValidation.Options.Tests;
 
 public partial class ValidatedOptionsExtensionsTests
 {

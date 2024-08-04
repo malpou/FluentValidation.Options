@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace FluentValidation.Options
+namespace MP.FluentValidation.Options
 {
     internal static class OptionsBuilderFluentValidationExtensions
     {

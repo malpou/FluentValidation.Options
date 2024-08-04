@@ -2,20 +2,22 @@
 
     <PropertyGroup>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Title>FluentValidation.Options</Title>
+        <Title>MP.FluentValidation.Options</Title>
         <Authors>malpou</Authors>
         <TargetFrameworks>netstandard2.0;net8.0;net462</TargetFrameworks>
-        <Description>FluentValidation.Options allows you to automatically validate configuration settings using FluentValidation validators</Description>
+        <Description>MP.FluentValidation.Options allows you to automatically validate configuration settings using FluentValidation validators</Description>
         <Copyright>Malthe Poulsen</Copyright>
-        <PackageProjectUrl>https://github.com/malpou/FluentValidation.Options</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/malpou/MP.FluentValidation.Options</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>fluent-validation-icon.png</PackageIcon>
-        <RepositoryUrl>https://github.com/malpou/FluentValidation.Options</RepositoryUrl>
+        <RepositoryUrl>https://github.com/malpou/MP.FluentValidation.Options</RepositoryUrl>
         <RepositoryType>github</RepositoryType>
         <PackageTags>validation, configuration</PackageTags>
         <PackageId>MP.FluentValidation.Options</PackageId>
-        <Version>1.0.1</Version>
+        <Version>2.0.0</Version>
+        <AssemblyName>MP.FluentValidation.Options</AssemblyName>
+        <RootNamespace>MP.FluentValidation.Options</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -26,19 +28,19 @@
 
     <ItemGroup>
         <None Include="..\fluent-validation-icon.png">
-          <Pack>True</Pack>
-          <PackagePath>/</PackagePath>
-          <Link>fluent-validation-icon.png</Link>
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+            <Link>fluent-validation-icon.png</Link>
         </None>
         <None Include="..\LICENSE">
-          <Pack>True</Pack>
-          <PackagePath>/</PackagePath>
-          <Link>LICENSE</Link>
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+            <Link>LICENSE</Link>
         </None>
         <None Include="..\README.md">
-          <Pack>True</Pack>
-          <PackagePath>/</PackagePath>
-          <Link>README.md</Link>
+            <Pack>True</Pack>
+            <PackagePath>/</PackagePath>
+            <Link>README.md</Link>
         </None>
     </ItemGroup>
 

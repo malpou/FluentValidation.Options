@@ -1,4 +1,6 @@
-﻿namespace FluentValidation.Options.Tests;
+﻿using FluentValidation;
+
+namespace MP.FluentValidation.Options.Tests;
 
 public partial class ValidatedOptionsExtensionsTests
 {
